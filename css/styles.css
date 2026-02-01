@@ -244,6 +244,18 @@ img {
   width: calc((100% - (24px * 3)) / 4);
 }
 
+.box-features {
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
 .feature-title {
   font-size: 20px;
   font-weight: 500;
@@ -380,4 +392,29 @@ img {
   color: #f4f4fd;
   width: 264px;
   margin-top: 16px;
+}
+
+.box-footer-icon {
+  width: 208px;
+  height: 80px;
+}
+
+.box-footer-icon h3 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.box-footer {
+  display: flex;
+  gap: 120px;
 }
