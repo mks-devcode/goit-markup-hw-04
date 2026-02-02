@@ -92,6 +92,10 @@ img {
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .page-header .container {
@@ -204,6 +208,8 @@ img {
   background-color: rgb(46, 47, 66);
   padding-top: 188px;
   padding-bottom: 188px;
+  width: 1440px;
+  margin: auto;
   background-image:
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(./../images/hero-people-office.jpg);
@@ -448,4 +454,9 @@ img {
 .box-footer {
   display: flex;
   gap: 120px;
+}
+
+.icon-link-footer:hover,
+.icon-link-footer:focus {
+  background-color: #31d0aa;
 }
